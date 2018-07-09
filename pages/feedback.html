@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon""> 
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/feedback.css">
+	<title>VHE 向导 - 意见反馈</title>
+</head>
+
+<body>
+	<!--JavaScript被禁用时的提醒-->
+	<noscript><div id="js_unable"><b>您禁用了JavaScript脚本！禁用脚本会影响浏览体验！<br/>（若IE提示“IE已限制此网页运行脚本或ActiveX控件。”请点击“允许阻止的内容”）</b></div></noscript>
+	<!--头部-->
+	<div id="header">
+		
+	</div>
+	<!--导航-->
+	<div id="direct_link">
+		<div id="list_normal">s
+		<table class="right" cellspacing="0px" cellpadding="0px"><tr>
+			<td id="link_cell_title"><img src="../images/head_bar.png" id="direct_head_bar"><a href="#">导&nbsp;&nbsp;&nbsp;&nbsp;航</a></td>
+			<td class="link_cell"><div><a href="../index.html">首页</a></div></td>
+			<td class="link_cell">
+				<div><a href="../index.html#intro_area_me_bg">个人介绍</a></div>
+			</td>
+			<td class="link_cell">
+				<div><a href="hammer_intro.html">VHE介绍</a></div>
+				<ul class="child_list">
+					<li class="child_list_cell"><a href="hammer_intro_refer.html">学习资料</a></li>
+					<li class="child_list_cell"><a href="hammer_intro_teach_c1.html">VHE教程</a></li>
+					<li class="child_list_cell"><a href="hammer_intro_words.html">常见名词</a></li>
+					<li class="child_list_cell"><a href="hammer_intro_display.html">地图展示</a></li>
+				</ul>
+			</td>
+			<td class="link_cell">
+				<div><a href="valve_intro.html">Valve介绍</a></div>
+				<ul class="child_list">
+					<li class="child_list_cell"><a href="valve_intro.html#valve_brief_intro">Valve公司简介</a></li>
+					<li class="child_list_cell"><a href="valve_intro.html#valve_history">发展史</a></li>
+					<li class="child_list_cell"><a href="valve_intro.html#valve_log">事件日志</a></li>
+				</ul>
+			</td>
+			<td class="link_cell">
+				<div><a href="halflife_intro.html">Half-Life介绍</a></div>
+				<ul class="child_list">
+					<li class="child_list_cell"><a href="halflife_intro.html#hf_brief_intro">Half-Life简介</a></li>
+					<li class="child_list_cell"><a href="halflife_intro.html#hf_release_date">发布日期</a></li>
+					<li class="child_list_cell"><a href="halflife_intro.html#hf_story">游戏剧情</a></li>
+				</ul>
+			</td>
+		</tr></table>
+		</div>
+	</div>
+	<!--主体-->
+	<div id="main">
+		<!--VHE简介-->
+		<form action="mailto:690051933@qq.com" enctype="text/plain">
+			<div id="form_zone">
+				<table cellspacing="0px" cellpadding="0px"> 
+					<tr><td colspan="2"><div  id="fb_title">请填写你的反馈信息</div></td></tr>
+					<tr><td class="fd_key">您的称呼：</td><td class="fd_value"><input type="text" name="name" class="fb_input"></td></tr>
+					<tr><td class="fd_key">您的邮箱：</td><td class="fd_value"><input type="text" name="mail" class="fb_input" placeholder="xxx@xxx.xxx"></td></tr>
+					<tr><td class="fd_key">其他联系方式：</td>
+						<td class="fd_value">
+							<select name="contact_type" class="fb_select">
+								<option selected>-请选择-</option>
+								<option>手机号</option>
+								<option>QQ号</option>
+								<option>微信号</option>
+								<option>其他</option>
+							</select>
+						</td>
+					</tr>
+					<tr><td class="fd_key">联系方式号码：</td><td class="fd_value"><input type="text" name="other_contact" class="fb_input"></td></tr>
+					<tr><td class="fd_key" required>反馈类型：</td>
+						<td class="fd_value">
+							<input type="radio" name="type" value="problem" checked>问题反馈
+							<input type="radio" name="type" value="advice">意见、建议反馈
+						</td></tr>
+					<tr><td class="fd_key">您的邮箱：</td><td class="fd_value"><input type="text" name="mail" class="fb_input"></td></tr>
+					<tr><td class="fd_key">您的反馈：</td><td class="fd_value"><textarea name="reply" class="fb_input" id="fb_textarea" maxlength="10000" placeholder="请输入您的反馈" required></textarea></td></tr>
+					<tr><td colspan="2"><input type="submit" value="发送反馈到我的邮箱" class="fb_button"></td></tr>
+				</table>
+			</div>
+		</form>
+	<!--尾部-->
+	<div id="tail">
+		<img src="../images/hammer_logo_white.png" id="tail_pic">
+		<p>VHE 向导 By 肖晓 <a href="feedback.html">意见反馈</a></p>
+	</div>
+	<!--js脚本引入-->
+		<!--导航栏变化-->
+		<script type="text/javascript" src="../js/Direct_list_fade.js"></script>
+		<!--告示栏切换功能-->
+		<script type="text/javascript" src="../js/index_pic_change.js"></script>
+	<!--end-->
+</body>
+</html>
