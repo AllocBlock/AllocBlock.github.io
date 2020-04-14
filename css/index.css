@@ -1,125 +1,53 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	min-width: 600px;
 
-
-
-#annouce{
-	background-position: center;
-	height: 400px;
-	overflow: hidden;
+	padding: 0;
+	margin: 0;
 	position: relative;
-}
-	#roll_pic_dlink{
-		cursor: default;
-	}
-	#roll_pics{
-		display: block;
-		position: absolute;
-		left:50%;
-		margin-left: -800px;
 
-		-webkit-user-select: none;
-	    -moz-user-select: none;
-	    -ms-user-select: none;
-	    user-select: none;
-	}
-	.div_circle{
-		width: 14px;
-		height: 14px;
-		border-radius: 7px;
-		background-color: white;
-		opacity: 0.5;
-		float: left;
-		position: absolute;
-		top: 370px;
-		left: 50%;
-		z-index: 5;
-		cursor: pointer;
-	}
-	/*.div_circle:hover{
-		opacity: 0.8;
-	}*/
-	#div_circle_bg{
-		width: 80px;
-		height: 24px;
-		border-radius: 7px;
-		background-color: black;
-		opacity: 0.5;
-		position: absolute;
-		top: 370px;
-		left: 50%;
-		transform:translate(-40px, -5px);
-		z-index: 4;
-	}
-	#div_circle_1{
-		transform:translateX(-27px);
-		opacity: 1;
-	}
-	#div_circle_2{
-		transform:translateX(-7px);
-	}
-	#div_circle_3{
-		transform:translateX(13px);
-	}
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+a, a:visited, a:link, a:active {
+    color: #a88;
+    text-decoration: none;
+}
+a:hover{
+	color: white;
+}
 
 #main{
-	
+	width: 100%;
+	height: 100%;
+	background-color: #24414a;
+
+	flex-direction: column;
 }
-	.intro_area{
-			width: 90%;
-			margin-left: auto;
-			margin-right: auto;
-			padding-top: 10px;
-			padding-bottom: 20px;
-			margin-bottom: 10px;
-		}
-		#intro_area_me_bg{
-			color: #515140;
-		}
-			#other_maps_table{
-				width: 100%;
-			}
-			.other_maps_cell{
-				width: 33.3%;
-				text-align: center;
-				font-size: 12px;
-				color: #777;
-			}
 
-		#intro_area_hammer_bg{
-			background-color: #a00;
-			color: white;
-		}
-		#intro_area_valve_bg{
-			background-color: #225;
-			color: white;
-		}
-		#intro_area_halflife_bg{
-			background-color: #CD7000;
-			color: white;
-		}
-			#game_judge_list{
-				margin-left: 20px;
-			}
-			.intro_detail{
-				width: 110px;
-				height: 40px;
-				position: relative;
-				left: 50%;
-				transform: translateX(-60px);
-				border: 5px solid;
-				text-align: center;
-				border-color: white;
+#music-player{
+	width: 30%;
+	height: 80px;
+	font-size: 20px;
+	background-color: rgba(100, 100, 100, 0.3);
+	margin: 5px 0;
+}
 
-				-webkit-user-select:none;
-			    -moz-user-select:none;
-			    -ms-user-select:none;
-			    user-select:none;
-			    cursor: pointer;
-			}
-			.intro_detail:hover{
-				color: black;
-				background-color: white;
-			}
-			.inside_text{
-				position: relative;
-				top: 9px;
-			}
+#music-mark{
+	width: 30%;
+	height: 80px;
+	font-size: 20px;
+	background-color: rgba(100, 100, 100, 0.3);
+	margin: 5px 0;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
